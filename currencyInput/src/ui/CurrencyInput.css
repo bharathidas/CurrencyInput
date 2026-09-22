@@ -15,7 +15,7 @@
 .widget-currencyinput.label:empty {
     display: initial;
     /* Fix padding to stay square */
-    padding: .2em .8em .3em;
+    padding: 0.2em 0.8em 0.3em;
 }
 
 .widget-currencyinput.badge {
@@ -23,11 +23,10 @@
     min-height: 18px;
 }
 
-
 .currency-input {
     width: 200px;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
-  }
+}

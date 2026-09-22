@@ -3,11 +3,7 @@ import { CurrencyInputPreviewProps } from "../typings/CurrencyInputProps";
 
 export class preview extends Component<CurrencyInputPreviewProps> {
     render(): ReactNode {
-        return (
-            <div ref={this.parentInline}>
-                
-            </div>
-        );
+        return <div ref={this.parentInline}></div>;
     }
 
     private parentInline(node?: HTMLElement | null): void {
@@ -16,8 +12,6 @@ export class preview extends Component<CurrencyInputPreviewProps> {
             node.parentElement.parentElement.style.display = "inline-block";
         }
     }
-
-    
 }
 
 export function getPreviewCss(): string {

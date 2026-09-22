@@ -1,8 +1,8 @@
 {
   "name": "currencyinput",
   "widgetName": "CurrencyInput",
-  "version": "1.0.0",
-  "description": "My widget description",
+  "version": "1.0.1",
+  "description": "Currency input widget for Mendix Studio Pro 10.24.17",
   "copyright": "© Mendix Technology BV 2022. All rights reserved.",
   "author": "Bharathidasan",
   "engines": {
@@ -25,7 +25,7 @@
     "release": "pluggable-widgets-tools release:web"
   },
   "devDependencies": {
-    "@mendix/pluggable-widgets-tools": "^10.7.1",
+    "@mendix/pluggable-widgets-tools": "10.16.0",
     "@types/big.js": "^6.0.2"
   },
   "dependencies": {

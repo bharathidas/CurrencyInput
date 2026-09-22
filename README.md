@@ -2,56 +2,83 @@
 
 Currency Input is used for handling currency input with automatic formatting, validation, and customization. It supports decimal precision, and prefix/suffix styling. It ensures smooth user interaction, managing edge cases like negative values and thousands separators, making it ideal for applications requiring accurate currency input.
 
+## Versions
+
+| Widget / GitHub version | Mendix Studio Pro | Notes |
+| --- | --- | --- |
+| **1.0.1** (`Version1.0.1`) | **10.24.17** | Current — `@mendix/pluggable-widgets-tools` 10.16.0 |
+| 1.0.0 (`Version1.0.0`) | 9.24.22 | Previous release |
+
+Download the matching `.mpk` from the [Releases](https://github.com/bharathidas/CurrencyInput/releases) page. The `mendix.CurrencyInput.mpk` on `main` is always the latest version (**1.0.1**).
+
 ## Features
-### •	allowDecimals - 
+
+### • allowDecimals -
 Allow decimals.
-### •	allowNegativeValue - 
+
+### • allowNegativeValue -
 Allow user to enter negative value.
-### •	defaultValue - 
+
+### • defaultValue -
 defaultValue.
-### •	Value -
+
+### • Value -
 value.
-### •	Placeholder - 
+
+### • Placeholder -
 Placeholder if no value.
-### •	decimalsLimit -
+
+### • decimalsLimit -
 Limit length of decimals allowed.
-### •	decimalScale - 
+
+### • decimalScale -
 Specify decimal scale for padding/trimming.
-### •	fixedDecimalLength - 
+
+### • fixedDecimalLength -
 Value will always have the specified length of decimals.
-### •	prefix - 
+
+### • prefix -
 Include a prefix eg. £ or $.
-### •	Suffix - 
+
+### • Suffix -
 Include a suffix eg. € or %.
-### •	decimalSeparator -
+
+### • decimalSeparator -
 Separator between integer part and fractional part of value.
-### •	groupSeparator -
+
+### • groupSeparator -
 Separator between thousand, million and billion.
-### •	disabled – 
+
+### • disabled –
 disabled.
-### •	disableAbbreviations -
+
+### • disableAbbreviations -
 Disable abbreviations eg. 1k -> 1,000, 2m -> 2,000,000.
-### •	disableGroupSeparators - 
+
+### • disableGroupSeparators -
 Disable auto adding the group separator between values, eg. 1000 -> 1,000.
-### •	maxLength - 
+
+### • maxLength -
 Maximum characters the user can enter.
-### •	step - 
+
+### • step -
 Incremental value change on arrow down and arrow up key press.
 
-## Dependencies:
-• Mendix modeler 9.24.22.
+## Dependencies
 
-## Demo URL:
+• Mendix Studio Pro **10.24.17** (widget **1.0.1**)
+
+• Mendix Studio Pro 9.24.22 (widget 1.0.0 — see release `Version1.0.0`)
+
+## Demo URL
+
 https://currencyinput-sandbox.mxapps.io/index.html?profile=Responsive
 
-demo_administrator
-
-Q4cphWB29xy7
-
 ## Issues, suggestions and feature requests
+
 https://github.com/bharathidas/CurrencyInput/issues
 
-## Screenshots:
+## Screenshots
 
 ![Screenshot_1](https://github.com/user-attachments/assets/337be72f-5676-416d-a396-9072f0931eda)
 
